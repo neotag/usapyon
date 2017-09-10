@@ -1,0 +1,22 @@
+{
+  "name": "usapyon",
+  "version": "1.1.0",
+  "description": "うさぴょん",
+  "main": "\"\"",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicada-sss/usapyon.git"
+  },
+  "author": "cicada-sss",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cicada-sss/usapyon/issues"
+  },
+  "homepage": "https://cicada-sss.github.io/usapyon/"
+}
