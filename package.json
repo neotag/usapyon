@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/cicada-sss/usapyon/issues"
   },
-  "homepage": "https://cicada-sss.github.io/usapyon/"
+  "homepage": "https://cicada-sss.github.io/usapyon/",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
 }
