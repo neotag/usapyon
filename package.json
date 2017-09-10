@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "$(npm bin)/gulp",
+    "build": "$(npm bin)/gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,12 @@
   },
   "homepage": "https://cicada-sss.github.io/usapyon/",
   "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
     "gulp": "^3.9.1",
-    "gulp-webserver": "^0.9.1"
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
