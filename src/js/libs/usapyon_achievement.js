@@ -3,6 +3,14 @@ export function achievement() {
     var nowTime = Math.floor(Date.now() / 1000);
     var achievementList = "";
     var totalAchievement = 0;
+    var totalUsagi = window.totalUsagi;
+    var usagi = window.usagi;
+    var totalKuma = window.totalKuma;
+    var kuma = window.kuma;
+    var totalRisu = window.totalRisu;
+    var risu = window.risu;
+    var totalAja = window.totalAja;
+    var aja = window.aja;
     if (typeof localStorage.achievement1_1 !== "undefined") {
         achievementList = achievementList + '<span class="notice">うさぴょんLv.1</span> - 累計うさぎ数100匹突破<br>\n'
         totalAchievement++;
@@ -862,5 +870,5 @@ export function achshow() {
         infotext = "";
     }, 5000);
 }
-
-setInterval(achievement, 10);
+achievement()
+// setInterval(achievement, 10);
