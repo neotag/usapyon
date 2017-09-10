@@ -1,3 +1,5 @@
+export function data() {
+
 var usagi = 0;
 var kuma = 0;
 var risu = 0;
@@ -153,3 +155,5 @@ if (totalTairyou + tairyou >= 1) {
     var showScore = "スコア : " + score + "点<br>\n";
     $("#status").html(showlaunchtime + showPlayTime + usagiRuikei + kumaRuikei + risuRuikei + ajaRuikei + toriRuikei + priRuikei + tairyouRuikei + usagiHeikin + kumaHeikin + risuHeikin + ajaHeikin + showScore);
 });
+
+};

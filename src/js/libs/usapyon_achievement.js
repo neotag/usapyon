@@ -1,5 +1,5 @@
 //0.1秒毎に状態チェック
-function achievement() {
+export function achievement() {
     var nowTime = Math.floor(Date.now() / 1000);
     var achievementList = "";
     var totalAchievement = 0;
@@ -853,7 +853,7 @@ function achievement() {
 $("#achievement_list").html(achievementList);
 }
 //実績表示
-function achshow() {
+export function achshow() {
     $("#info").html(infotext);
     $("#info").show();
     $('#sound4').get(0).play();
@@ -862,4 +862,5 @@ function achshow() {
         infotext = "";
     }, 5000);
 }
+
 setInterval(achievement, 10);

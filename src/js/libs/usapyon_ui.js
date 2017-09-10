@@ -1,3 +1,5 @@
+export function ui() {
+
 //BGM流す
 document.getElementById("sound5").volume = 0.5;
 document.getElementById("sound8").volume = 0.5;
@@ -118,3 +120,4 @@ document.addEventListener('touchend', event => {
   lastTouch = now;
 }, true);*/
 
+}

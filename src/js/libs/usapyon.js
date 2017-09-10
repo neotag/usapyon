@@ -1,3 +1,5 @@
+export function usapyon () {
+
 //初期化
 if (localStorage.usapri == 1) {
     window.location.href = "usapri.html";
@@ -148,3 +150,5 @@ setInterval(function() {
         n2++;
     }
 }, 100);
+
+}
